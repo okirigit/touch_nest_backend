@@ -1,0 +1,16 @@
+{
+    "type": "mssql",
+      "host": "localhost",
+      "username": "tracker",
+      "password": "root",
+      "encrypt":false,
+      "port":14330,
+      "database": "money_tracker",
+    "entities": [
+      "src/transaction/transaction.entity.ts",
+      "src/user/user.entity.ts",
+      "src/wallet/wallet.entity.ts"
+    ],
+    "synchronize": true
+  }
+  
