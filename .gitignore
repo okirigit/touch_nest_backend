@@ -1,6 +1,9 @@
 # compiled output
 /dist
 /node_modules
+/src/user
+/src/wallet
+/src/test
 
 # Logs
 logs
